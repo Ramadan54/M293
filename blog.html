@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <div id="header"></div>
+
+  <main class="container">
+    <section class="blog-hero">
+      <h1>Blogeinträge</h1>
+      <p>Hier können alle meine Blogeinträge bezüglich Fussball eingesehen werden.</p>
+    </section>
+
+    <section class="section">
+      <h2 class="section-heading"><i class="fas fa-pen-fancy"></i> Posts</h2>
+      <div class="filter-container">
+        <label for="topicFilter"><i class="fas fa-filter"></i> Thema:</label>
+        <select id="topicFilter">
+          <option value="all">Alle</option>
+          <option value="Fussball">Fussball</option>
+          <option value="Fankultur">Fankultur</option>
+          <option value="Technologie im Sport">Technologie im Sport</option>
+        </select>
+      </div>
+
+      <div class="blog-grid">
+        <!-- Post 1 -->
+        <article class="post-card">
+          <img src="images/bolzplatz.jpg" alt="Bolzplatz" class="post-img" />
+          <div class="post-body">
+            <span class="post-meta" data-topic="Fussball">Fussball • 04 Juli 2025</span>
+            <h3 class="post-title">Der Zauber des Bolzplatzes – Wo alles beginnt</h3>
+            <p class="post-excerpt">Bevor sie Trikots mit Millionenverträgen tragen, spielen sie barfuß auf Sand oder
+              Asphalt.</p>
+            <a href="posts/blogpost1.html" class="post-link">Read More →</a>
+            <div class="like-container">
+              <button class="like-btn" data-post-id="post1">
+                <i class="fas fa-heart"></i> <span class="like-count">0</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Post 2 -->
+        <article class="post-card">
+          <img src="images/nachspielzeit.jpeg" alt="Nachspielzeit" class="post-img" />
+          <div class="post-body">
+            <span class="post-meta" data-topic="Technologie im Sport">Nachspielzeit • 27 Juni 2025</span>
+            <h3 class="post-title">Magie in der Nachspielzeit – Warum wir Fußball lieben</h3>
+            <p class="post-excerpt">Es ist 93. Minute. Die Mannschaft liegt 1:2 zurück.</p>
+            <a href="posts/blogpost2.html" class="post-link">Read More →</a>
+            <div class="like-container">
+              <button class="like-btn" data-post-id="post2">
+                <i class="fas fa-heart"></i> <span class="like-count">0</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Post 3 -->
+        <article class="post-card">
+          <img src="images/taktik.jpg" alt="Taktik" class="post-img" />
+          <div class="post-body">
+            <span class="post-meta" data-topic="Fussball">Taktik • 12 Juni 2025</span>
+            <h3 class="post-title">Warum Taktik wichtiger ist als Talent</h3>
+            <p class="post-excerpt">Die größten Teams der Welt bestehen nicht nur aus Stars, sondern aus Systemen.</p>
+            <a href="posts/blogpost3.html" class="post-link">Read More →</a>
+            <div class="like-container">
+              <button class="like-btn" data-post-id="post3">
+                <i class="fas fa-heart"></i> <span class="like-count">0</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Post 4 -->
+        <article class="post-card">
+          <img src="images/stadium.jpg" alt="Stadion Atmosphäre" class="post-img" />
+          <div class="post-body">
+            <span class="post-meta" data-topic="Fankultur">Fankultur • 08 Juli 2025</span>
+            <h3 class="post-title">90 Minuten Gänsehaut – Die Magie der Kurve</h3>
+            <p class="post-excerpt">Sprechchöre, Pyroshows und pure Leidenschaft – die Fans sind das Herz des Spiels.
+            </p>
+            <a href="posts/blogpost4.html" class="post-link">Read More →</a>
+            <div class="like-container">
+              <button class="like-btn" data-post-id="post4">
+                <i class="fas fa-heart"></i> <span class="like-count">0</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Post 5 -->
+        <article class="post-card">
+          <img src="images/young_talent.jpg" alt="Junges Fußballtalent" class="post-img" />
+          <div class="post-body">
+            <span class="post-meta" data-topic="Fankultur">Jugendförderung • 05 Juli 2025</span>
+            <h3 class="post-title">Von der U12 zur Weltkarriere – Talentschmieden im Fokus</h3>
+            <p class="post-excerpt">Was braucht es, um aus einem Straßenkicker einen Profi zu machen?</p>
+            <a href="posts/blogpost5.html" class="post-link">Read More →</a>
+            <div class="like-container">
+              <button class="like-btn" data-post-id="post5">
+                <i class="fas fa-heart"></i> <span class="like-count">0</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Post 6 -->
+        <article class="post-card">
+          <img src="images/var.jpg" alt="VAR Diskussion" class="post-img" />
+          <div class="post-body">
+            <span class="post-meta" data-topic="Technologie im Sport">Technologie im Sport • 01 Juli 2025</span>
+            <h3 class="post-title">Fluch oder Segen? Die große Debatte um den VAR</h3>
+            <p class="post-excerpt">Kaum eine Neuerung hat den Fußball so gespalten wie der Video Assistant Referee.</p>
+            <a href="posts/blogpost6.html" class="post-link">Read More →</a>
+            <div class="like-container">
+              <button class="like-btn" data-post-id="post6">
+                <i class="fas fa-heart"></i> <span class="like-count">0</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Post 7 -->
+        <article class="post-card">
+          <img src="images/champions_league.jpg" alt="Champions League Pokal" class="post-img" />
+          <div class="post-body">
+            <span class="post-meta" data-topic="Fankultur">Wettbewerbe • 30 Juni 2025</span>
+            <h3 class="post-title">Champions League – Der Traum vom großen Glanz</h3>
+            <p class="post-excerpt">Es ist der prestigeträchtigste Titel im Vereinsfußball – und jedes Jahr pure
+              Spannung.</p>
+            <a href="posts/blogpost7.html" class="post-link">Read More →</a>
+            <div class="like-container">
+              <button class="like-btn" data-post-id="post7">
+                <i class="fas fa-heart"></i> <span class="like-count">0</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Post 8 -->
+        <article class="post-card">
+          <img src="images/regenmatch.jpg" alt="Spiel im Regen" class="post-img" />
+          <div class="post-body">
+            <span class="post-meta" data-topic="Fankultur">Spielbedingungen • 25 Juni 2025</span>
+            <h3 class="post-title">Regen, Schlamm und Kampfgeist – Wenn das Wetter mitspielt</h3>
+            <p class="post-excerpt">Schlechte Bedingungen bringen oft die besten Geschichten hervor.</p>
+            <a href="posts/blogpost8.html" class="post-link">Read More →</a>
+            <div class="like-container">
+              <button class="like-btn" data-post-id="post8">
+                <i class="fas fa-heart"></i> <span class="like-count">0</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Post 9 -->
+        <article class="post-card">
+          <img src="images/frauenfussball.jpg" alt="Frauenfußball Teamjubel" class="post-img" />
+          <div class="post-body">
+            <span class="post-meta" data-topic="Fankultur">Frauenfußball • 22 Juni 2025</span>
+            <h3 class="post-title">Mehr als nur mitspielen – Der Aufstieg des Frauenfußballs</h3>
+            <p class="post-excerpt">Die Entwicklung in den letzten Jahren ist beeindruckend – endlich mit mehr
+              Sichtbarkeit.</p>
+            <a href="posts/blogpost9.html" class="post-link">Read More →</a>
+            <div class="like-container">
+              <button class="like-btn" data-post-id="post9">
+                <i class="fas fa-heart"></i> <span class="like-count">0</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Post 10 -->
+        <article class="post-card">
+          <img src="images/transfers.jpg" alt="Transferverhandlungen" class="post-img" />
+          <div class="post-body">
+            <span class="post-meta" data-topic="Technologie im Sport">Transfermarkt • 19 Juni 2025</span>
+            <h3 class="post-title">Gerüchte, Millionen und Strategie – Die Transferphase erklärt</h3>
+            <p class="post-excerpt">Hinter den Kulissen des Sommertrubels spielt sich oft mehr ab als auf dem Feld.</p>
+            <a href="posts/blogpost10.html" class="post-link">Read More →</a>
+            <div class="like-container">
+              <button class="like-btn" data-post-id="post10">
+                <i class="fas fa-heart"></i> <span class="like-count">0</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+  <script type="module" src="js/partials-loader.js"></script>
+  <script type="module" src="js/mobile-menu.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <div id="header"></div>
+
+  <main class="container">
+    <section class="profile">
+      <div>
+        <h1>Hallo, ich bin Ramadan</h1>
+        <p>Ich habe diesen Blog erstellt, um über Fussball zu sprechen. Fussball ist einer meiner Leidenschaften und ich möchte meine Mitmenschen mehr zu diesem Thema informieren.</p>
+        <div class="contact-links">
+          <a href="https://github.com/Ramadan5417" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="mailto:ramadan.asani@tbz.edu.ch" aria-label="E‑Mail"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section class="section">
+      <h2 class="section-heading"><i class="fas fa-paper-plane"></i> Schreib mir</h2>
+      <form class="contact-form" action="mailto:ramadan.asani@tbz.edu.ch" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Name*" required />
+        <input type="email" name="email" placeholder="E‑Mail*" required />
+        <input type="text" name="subject" placeholder="Betreff*" required />
+        <textarea name="message" placeholder="Nachricht*" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <div id="footer"></div>
+
+  <script type="module" src="js/partials-loader.js"></script>
+  <script type="module" src="js/mobile-menu.js"></script>
+</body>
+</html>

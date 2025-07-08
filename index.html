@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <div id="header"></div>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="blog-hero">
+      <div class="hero-inner">
+        <h1>Ramadans Blog</h1>
+        <p>Blogübersicht‑ &amp; Ein Blog über unterschiedliche Dinge, über die ich rede</p>
+      </div>
+    </section>
+
+    <!-- LATEST BLOG POSTS -->
+    <section class="section">
+      <h2 class="section-heading"><i class="fas fa-pen-fancy"></i> Neu im Blog</h2>
+      <div class="blog-grid">
+        <article class="card">
+          <img src="images/bolzplatz.jpg" alt="Bolzplatz" />
+          <div class="card-content">
+            <span class="card-meta">04 Juli 2025 • Fussball</span>
+            <h3>Der Zauber des Bolzplatzes – Wo alles beginnt</h3>
+            <p>Bevor sie Trikots mit Millionenverträgen tragen, spielen sie barfuß auf Sand oder Asphalt.</p>
+            <a href="blog.html#post1" class="card-link">Weiterlesen</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/nachspielzeit.jpeg" alt="Nachspielzeit" />
+          <div class="card-content">
+            <span class="card-meta">27 Juni 2025 • Fussball</span>
+            <h3>Magie in der Nachspielzeit – Warum wir Fußball lieben</h3>
+            <p>Es ist 93. Minute. Die Mannschaft liegt 1:2 zurück.</p>
+            <a href="blog.html#post2" class="card-link">Weiterlesen</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/taktik.jpg" alt="Taktik" />
+          <div class="card-content">
+            <span class="card-meta">12 Juni 2025 • Fussball</span>
+            <h3>Warum Taktik wichtiger ist als Talent</h3>
+            <p>Die größten Teams der Welt bestehen nicht nur aus Stars, sondern aus Systemen.</p>
+            <a href="blog.html#post3" class="card-link">Weiterlesen</a>
+          </div>
+        </article>
+      </div>
+      <div class="text-center mt-32"><a href="blog.html" class="btn btn-primary">Zum Blog</a></div>
+    </section>
+
+    <!-- HIGHLIGHTS -->
+    <section class="section">
+      <h2 class="section-heading"><i class="fas fa-star"></i> Aktuelle Highlights</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <div class="project-body">
+            <h3>Frauen-EM 2025</h3>
+            <p>Die Frauem-EM 2025 hat angefangen und sie findet in der Schweiz statt!</p>
+            <div class="tags"><span>2025</span><span>Frauen-EM</span><span>EM</span></div>
+            <a href="https://de.uefa.com/womenseuro/" class="btn btn-secondary">Details</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-body">
+            <h3>WM 2026</h3>
+            <p>Die WM 2026 steht vor der Tür, für wen seid ihr?</p>
+            <div class="tags"><span>Fussball</span><span>2026</span><span>WM</span></div>
+            <a href="https://www.fifa.com/de/tournaments/mens/worldcup/canadamexicousa2026" class="btn btn-secondary">Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+      <h2>Newsletter</h2>
+      <p>Neuer Release, neuer Blog‑Post – bleib auf dem Laufenden.</p>
+      <form class="newsletter-form" action="mailto:mert2003@live.com" method="post" enctype="text/plain">
+        <input type="email" placeholder="E‑Mail" required />
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+      <p class="note">Abmeldung jederzeit möglich.</p>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+
+  <script type="module" src="js/partials-loader.js"></script>
+  <script type="module" src="js/mobile-menu.js"></script>
+</body>
+</html>
