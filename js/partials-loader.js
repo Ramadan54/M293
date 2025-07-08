@@ -1,6 +1,7 @@
+const prefix = "/M293/";
 document.addEventListener("DOMContentLoaded", () => {
-  loadPartial("header", "./header.html");
-  loadPartial("footer", "./footer.html");
+  loadPartial("header", `${prefix}header.html`);
+  loadPartial("footer", `${prefix}footer.html`);
 });
 
 function loadPartial(targetId, url) {
